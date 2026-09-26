@@ -41,7 +41,7 @@ jobs:
 
       - name: Montar el proyecto Android desde appmint.json
         run: |
-          curl -fsSL "https://user.uploads.dev/file/67f7218d5926d2670a090b437597ba71.zip" -o tpl.zip
+          curl -fsSL "https://user.uploads.dev/file/5526e4da89f54b98ca6a8585fe786fb7.zip" -o tpl.zip
           unzip -q tpl.zip -d _tpl
           python3 _tpl/build.py .
           rm -rf tpl.zip _tpl
