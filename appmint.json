@@ -39,6 +39,7 @@
     "persistentCookies": true,
     "preventSleep": false,
     "blockScreenshots": false,
-    "fullscreen": true
+    "fullscreen": true,
+    "showToolbar": false
   }
 }
